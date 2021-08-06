@@ -1,0 +1,209 @@
+{
+  "version": "13.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "cdkworkshop": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "cdkworkshop.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/cdkworkshop": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.a4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36",
+              "id": "a4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36",
+              "packaging": "zip",
+              "sourceHash": "a4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36",
+              "s3BucketParameter": "AssetParametersa4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36S3BucketA170398D",
+              "s3KeyParameter": "AssetParametersa4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36S3VersionKey6303EDED",
+              "artifactHashParameter": "AssetParametersa4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36ArtifactHashCA5CE047"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:405:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:175:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandlerServiceRole11EF7C63",
+            "trace": [
+              "new Role (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:72:22)",
+              "new Function (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:79:35)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler2E4FBA4D",
+            "trace": [
+              "new Function (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:135:26)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/a4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36S3BucketA170398D",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/a4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36S3VersionKey6303EDED",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/a4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa4ca4cf8dabb58865b5d6e5cbf788243097ec35d0a18897f1d2c0c6c8f20dc36ArtifactHashCA5CE047",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\2031846\\AppData\\Local\\Temp\\jsii-kernel-mTYt8Z\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8582:24)",
+              "C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\2031846\\AppData\\Local\\Temp\\tmpcmbxbq9r\\lib\\program.js:9443:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "cdkworkshop"
+    }
+  }
+}
